@@ -1,0 +1,180 @@
+================BQ1=================
+
+    case '有机会一起生孩子':
+        $img_url = 'http://m2.dwstatic.com/bi_material/20160708/18e2999891374a475d0687ca9f989d831467974046928809260.jpg';
+        $img = imagecreatefromjpeg($img_url);
+        $font_size = 15;
+        $color = imagecolorallocatealpha($img, 17, 17, 17, 0);
+        $font_family = 'font/HeiTi.ttf';
+        $x = 77 - getBoxWidth($font_size, $font_family, $name);
+        $y = 137;
+        break;
+
+================BQ2=================
+
+    case '让我爽一次吧':
+        $img_url = 'http://m2.dwstatic.com/bi_material/20160708/156005c5baf40ff51a327f1c34f2975b1467974046443065538.jpg';
+        $img = imagecreatefromjpeg($img_url);
+        $font_size = 18;
+        $color = imagecolorallocatealpha($img, 4, 4, 4, 0);
+        $font_family = 'font/msyh.ttf';
+        $x = 97 - getBoxWidth($font_size, $font_family, $name);
+        $y = 157;
+        break;
+
+================BQ3=================
+
+    case '被吻羡慕不':
+        $img_url = 'http://m2.dwstatic.com/bi_material/20160708/f3ccdd27d2000e3f9255a7e3e2c488001467974046395139003.jpg';
+        $img = imagecreatefromjpeg($img_url);
+        $font_size = 13.5;
+        $color = imagecolorallocatealpha($img, 66, 66, 66, 0);
+        $font_family = 'font/msyhbd.ttf';
+        $x = 62 - getBoxWidth($font_size, $font_family, $name);
+        $y = 23;
+        break;
+
+================BQ4=================
+
+    case '给我一个么么哒':
+        $img_url = 'http://m2.dwstatic.com/bi_material/20160708/62bf1edb36141f114521ec4bb41755791467974046625530931.jpg';
+        $img = imagecreatefromjpeg($img_url);
+        $font_size = 16.5;
+        $color = imagecolorallocatealpha($img, 17, 17, 17, 0);
+        $font_family = 'font/jianti.ttf';
+        $x = 68 - getBoxWidth($font_size, $font_family, $name);
+        $y = 117;
+        break;
+
+================BQ5=================
+
+    case '你男朋友真幸运':
+        $img_url = 'http://m2.dwstatic.com/bi_material/20160708/fe5df232cafa4c4e0f1a0294418e56601467974046226029818.jpg';
+        $img = imagecreatefromjpeg($img_url);
+        $font_size = 22.5;
+        $color = imagecolorallocatealpha($img, 6, 6, 6, 0);
+        $font_family = 'font/msyhbd.ttf';
+        $x = 285;
+        $y = 33;
+        break;
+
+================BQ6=================
+
+    case '掉了一个男朋友':
+        $img_url = 'http://m2.dwstatic.com/bi_material/20160708/edab7ba7e203cd7576d1200465194ea81467974046986674842.jpg';
+        $img = imagecreatefromjpeg($img_url);
+        $font_size = 24;
+        $color = imagecolorallocatealpha($img, 7, 7, 7, 0);
+        $font_family = 'font/HeiTi.ttf';
+        $x = 424;
+        $y = 75;
+        break;
+
+================BQ7=================
+
+    case '怎么生出如此美丽的你':
+        $img_url = 'http://m2.dwstatic.com/bi_material/20160708/30e62fddc14c05988b44e7c02788e1871467974046216202828.jpg';
+        $img = imagecreatefromjpeg($img_url);
+        $font_size = 24;
+        $color = imagecolorallocatealpha($img, 4, 4, 4, 0);
+        $font_family = 'font/msyhbd.ttf';
+        $x = 149 - getBoxWidth($font_size, $font_family, $name);
+        $y = 71;
+        break;
+
+================BQ8=================
+
+    case '我能插嘴吗':
+        $img_url = 'http://m2.dwstatic.com/bi_material/20160708/8cda81fc7ad906927144235dda5fdf151467974046208285019.jpg';
+        $img = imagecreatefromjpeg($img_url);
+        $font_size = 36;
+        $color = imagecolorallocatealpha($img, 2, 30, 3, 0);
+        $font_family = 'font/hwfs.ttf';
+        $x = 194 - getBoxWidth($font_size, $font_family, $name);
+        $y = 438;
+        break;
+
+================BQ9=================
+
+    case '老夫帮你脱了吧':
+        $img_url = 'http://m2.dwstatic.com/bi_material/20160708/9414a8f5b810972c3c9a0e2860c075321467974046118787706.jpg';
+        $img = imagecreatefromjpeg($img_url);
+        $font_size = 28.5;
+        $color = imagecolorallocatealpha($img, 8, 10, 9, 0);
+        $font_family = 'font/jianti.ttf';
+        $x = 150 - getBoxWidth($font_size, $font_family, $name);
+        $y = 265;
+        break;
+
+================BQ10=================
+
+    case '除了恋爱没什么好谈的':
+        $img_url = 'http://m2.dwstatic.com/bi_material/20160708/db3a17f7bcac837ecc1fe2bc630a54731467974046626786417.jpg';
+        $img = imagecreatefromjpeg($img_url);
+        $font_size = 18;
+        $color = imagecolorallocatealpha($img, 4, 4, 4, 0);
+        $font_family = 'font/jianti.ttf';
+        $x = 180 - getBoxWidth($font_size, $font_family, $name);
+        $y = 237;
+        break;
+
+================BQ11=================
+
+    case '多日之后就熟悉了':
+        $img_url = 'http://m2.dwstatic.com/bi_material/20160708/799bad5a3b514f096e69bbc4a7896cd91467974046212836844.jpg';
+        $img = imagecreatefromjpeg($img_url);
+        $font_size = 31.5;
+        $color = imagecolorallocatealpha($img, 0, 0, 0, 0);
+        $font_family = 'font/HeiTi.ttf';
+        $x = 178 - getBoxWidth($font_size, $font_family, $name);
+        $y = 527;
+        break;
+
+================BQ12=================
+
+    case '你命中缺我啊':
+        $img_url = 'http://m2.dwstatic.com/bi_material/20160708/8df7b73a7820f4aef47864f2a6c5fccf14679740469012103.jpg';
+        $img = imagecreatefromjpeg($img_url);
+        $font_size = 18;
+        $color = imagecolorallocatealpha($img, 0, 0, 0, 0);
+        $font_family = 'font/jianti.ttf';
+        $x = 128 - getBoxWidth($font_size, $font_family, $name);
+        $y = 239;
+        break;
+
+================BQ13=================
+
+    case '帮你穿上别着凉':
+        $img_url = 'http://m2.dwstatic.com/bi_material/20160708/ae566253288191ce5d879e51dae1d8c31467974046766755367.jpg';
+        $img = imagecreatefromjpeg($img_url);
+        $font_size = 22.5;
+        $color = imagecolorallocatealpha($img, 3, 17, 2, 0);
+        $font_family = 'font/msyhbd.ttf';
+        $x = 127 - getBoxWidth($font_size, $font_family, $name);
+        $y = 474;
+        break;
+
+================BQ14=================
+
+    case '做个爱再走':
+        $img_url = 'http://m2.dwstatic.com/bi_material/20160708/d0096ec6c83575373e3a21d129ff8fef1467974046670081441.jpg';
+        $img = imagecreatefromjpeg($img_url);
+        $font_size = 33;
+        $color = imagecolorallocatealpha($img, 0, 0, 0, 0);
+        $font_family = 'font/jianti.ttf';
+        $x = 162 - getBoxWidth($font_size, $font_family, $name);
+        $y = 73;
+        break;
+
+================BQ15=================
+
+    case '我可以*你吗':
+        $img_url = 'http://m2.dwstatic.com/bi_material/20160708/032b2cc936860b03048302d991c3498f1467974046840220755.jpg';
+        $img = imagecreatefromjpeg($img_url);
+        $font_size = 47.25;
+        $color = imagecolorallocatealpha($img, 0, 0, 0, 0);
+        $font_family = 'font/HeiTi.ttf';
+        $x = 207 - getBoxWidth($font_size, $font_family, $name);
+        $y = 525;
+        break;
+
